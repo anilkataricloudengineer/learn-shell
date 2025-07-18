@@ -35,6 +35,9 @@ we can source that file and those variables and functions will be inherited into
 command > output  (> symbol will redirect the output of command to that output file)
 command < input   (< symbol will load the input from that file input)
 
+  output is two types, output * error 
+  command &>output (&> will redirect both output and error)
+
 #### Some random points
 
         In shell function inside a function will work.
