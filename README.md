@@ -24,3 +24,8 @@ Here space is a special character these special character have special meaning i
 
 rm -f "x*1.txt"
  Here the file name itself having a '*' character to denote that we are using quotes.
+
+#### Importing functions and variables.
+
+we can import variables and functions using 'source' command . Meaning if we have a file with variables and functions declared then
+we can source that file and those variables and functions will be inherited into the shell program that we are running.
