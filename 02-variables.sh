@@ -25,6 +25,6 @@ x1="abc 123"
 # Access the variables
 # Syntax : $var_name or ${var_name}
 
-file =1.txt
+file=1.txt
 touch $file
 cp $file 2.txt
