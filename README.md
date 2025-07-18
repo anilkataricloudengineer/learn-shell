@@ -29,3 +29,17 @@ rm -f "x*1.txt"
 
 we can import variables and functions using 'source' command . Meaning if we have a file with variables and functions declared then
 we can source that file and those variables and functions will be inherited into the shell program that we are running.
+
+
+#### Some random points
+
+        In shell function inside a function will work.
+
+
+
+
+
+
+
+
+
