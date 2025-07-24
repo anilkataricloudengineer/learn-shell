@@ -8,7 +8,7 @@ x=10
 
 #LHS
 # Variable name can comprise of a-z, A-Z, 0-9, _
-# Variables should not start with number, x1 is good, 1x is bad
+# Variables should not start with a number, x1 is good, 1x is bad
 
 #RHS
 # Data in shell treated as string by default.
