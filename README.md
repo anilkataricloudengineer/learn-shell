@@ -20,7 +20,7 @@ If you have any special characters in command input over command line then we ta
 
 cp "file 1.txt" "file 2.txt"
 
-Here space is a special character these special character have special meaning in the shellTo avoid that speciality we use quotes.
+Here space is a special character these special character have special meaning in the shell, To avoid that speciality we use quotes.
 
 rm -f "x*1.txt"
  Here the file name itself having a '*' character to denote that we are using quotes.
