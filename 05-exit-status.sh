@@ -9,3 +9,8 @@
 
 ls
 echo $?
+
+# Exit command will exit our script.
+# While exiting it also can send the status which is 0 - 255
+# exit -0 -> It sends 0 status of our script execution
+# exit -1 -> It send 1 status of our script execution

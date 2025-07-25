@@ -40,7 +40,10 @@ command < input   (< symbol will load the input from that file input)
 
 #### Some random points
 
-        In shell function inside a function will work.
+    - In shell function inside a function will work.
+    - If there is a failure detected, mostly we will stop the script there only avoid further failures.
+     
+
 
 
 
