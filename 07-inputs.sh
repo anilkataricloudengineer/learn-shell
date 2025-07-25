@@ -41,6 +41,11 @@ sample() {
   a=9 b=10 sample 900 1000
 
 
+  # LHS -
+  # RHS - Script/ Command  Arguments
+  # export - Environment Variables
+
+
 
 
 
