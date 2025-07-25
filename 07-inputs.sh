@@ -27,15 +27,18 @@ echo exported variable name- $name
 #### Deal with Function
 
 sample() {
-echo LHS Values in function a - $a , b -$b
+  echo LHS Values in function a - $a , b -$b
 
-# Example for RHS
-echo RHS Values in function 1 - $1 , 2 - $2
-echo "All Values in function - * - $*"
-echo "No of values in function # - $#"
+  # Example for RHS
+  echo RHS Values in function 1 - $1 , 2 - $2
+  echo "All Values in function - * - $*"
+  echo "No of values in function # - $#"
+
+  # For function we no need to export, just a declaration is fine - To keep consistent understanding you can export
+  echo x - $x
 }
-
-a=9 b=10 sample 900 1000
+  export x=10 # Simply x=10 is fine for functions as these are run in same script
+  a=9 b=10 sample 900 1000
 
 
 
