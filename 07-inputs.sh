@@ -35,7 +35,7 @@ echo "All Values in function - * - $*"
 echo "No of values in function # - $#"
 }
 
-a=9 b=10 sample
+a=9 b=10 sample 900 1000
 
 
 
