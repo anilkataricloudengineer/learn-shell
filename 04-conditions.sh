@@ -49,7 +49,7 @@ if [ $x -gt 0]; then
   echo $x is greater than zero
 fi
 
-## Case command will do only string comparison , that to be limited with whether tow values are equal or not equal
+## Case command will do only string comparison , that to be limited with whether two values are equal or not equal
 
 # Case $var in
 #   some-x)
